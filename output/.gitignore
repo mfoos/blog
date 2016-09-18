@@ -1,0 +1,8 @@
+Makefile
+__pycache__/
+content/
+develop_server.sh
+fabfile.py
+pelicanconf.py
+pelicanconf.pyc
+publishconf.py
