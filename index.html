@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
         <meta charset="utf-8" />
-        <title>Blg</title>
+        <title>I'd rather be eating</title>
         <link rel="stylesheet" href="https://mfoos.github.io/blog/theme/css/main.css" />
 
         <!--[if IE]>
@@ -12,26 +12,36 @@
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="https://mfoos.github.io/blog/">Blg </a></h1>
+                <h1><a href="https://mfoos.github.io/blog/">I'd rather be eating </a></h1>
                 <nav><ul>
-                    <li><a href="https://mfoos.github.io/blog/category/update.html">Update</a></li>
+                    <li><a href="https://mfoos.github.io/blog/category/misc.html">misc</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="https://mfoos.github.io/blog/first-post.html">First Post</a></h1>
+                    <h1 class="entry-title"><a href="https://mfoos.github.io/blog/hello-world.html">Hello, world!</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2016-09-17T00:00:00-04:00">
-                Published: Sat 17 September 2016
+        <abbr class="published" title="2016-09-18T00:00:00-04:00">
+                Published: Sun 18 September 2016
         </abbr>
 
         <address class="vcard author">
                 By                         <a class="url fn" href="https://mfoos.github.io/blog/author/marianna-foos.html">Marianna Foos</a>
         </address>
-<p>In <a href="https://mfoos.github.io/blog/category/update.html">Update</a>.</p>
-<p>tags: <a href="https://mfoos.github.io/blog/tag/cats.html">cats</a> <a href="https://mfoos.github.io/blog/tag/blogposts.html">blogposts</a> </p>
-</footer><!-- /.post-info --><p>Oh Hello, I am a blog post. Probably.</p>                </article>
+<p>In <a href="https://mfoos.github.io/blog/category/misc.html">misc</a>.</p>
+<p>tags: <a href="https://mfoos.github.io/blog/tag/updates.html">updates</a> </p>
+</footer><!-- /.post-info --><p>It's been on my list of "haunting tasks" (this is a real list I keep) to "make a Jekyll blog on Github pages". However, my experience with Jekyll was: jargon jargon jargon, gem install. Since I try not to type mysterious things into my terminal, I googled around, and eventually found a page titled ("What is a gem?")[http://guides.rubygems.org/what-is-a-gem/] that doesn't actually answer the question. Eventually this path led to many complaints about Ruby dependency nightmares with Jekyll, a blog comment about "other static site generators", and my using (Pelican)[http://docs.getpelican.com/].</p>
+<p>Here are some things I learned while throwing this together today:
+1. I am an example-oriented learner, so I briefly browsed the docs and then started with the (quickstart)[http://docs.getpelican.com/en/3.6.3/quickstart.html] option. It builds you a barebones page that is then as flexible as if built by hand. Viewing config &amp; styling documents is straightforward and you can get on your way fast.
+2. If you are using Github pages, the helpful info is in (tips)[http://docs.getpelican.com/en/3.6.3/tips.html]
+3. I have a static Github page at my .io URL, and I spend a lot of time trying to figure out how I could put a blog at mfoos.github.io/blog/ without having a confusing directory structure and/or files everywhere. I ultimately figured it out using (this Hugo tutorial)[https://gohugo.io/tutorials/github-pages-blog/].
+Basically:
+<em> Create a totally separate repo called "blog" (or whatever)
+</em> Create a branch called "gh-pages" (this exactly)
+* WHILE ON THE MASTER BRANCH use (ghp-import)[https://github.com/davisp/ghp-import] to automatically rename the contents of your <code>output</code> so that ONCE DEPLOYED they all live in the /blog folder <code>git push origin gh-pages</code>
+4. I also noticed that the themes appear slightly different in the local browser preview vs hosted on Github, so make sure you like the hosted version too.</p>
+<p>Now I have a blog. Better write about something.</p>                </article>
             </aside><!-- /#featured -->
         <section id="extras" class="body">
                 <div class="blogroll">
@@ -39,16 +49,18 @@
                         <ul>
                             <li><a href="http://getpelican.com/">Pelican</a></li>
                             <li><a href="http://python.org/">Python.org</a></li>
-                            <li><a href="http://jinja.pocoo.org/">Jinja2</a></li>
-                            <li><a href="#">You can modify those links in your config file</a></li>
+                            <li><a href="http://boston.pyladies.com/">PyLadies Boston</a></li>
+                            <li><a href="https://rladies.org/">R-Ladies</a></li>
+                            <li><a href="http://www.meetup.com/bostonpython/">Boston Python</a></li>
+                            <li><a href="http://www.datacarpentry.org/">Data Carpentry</a></li>
+                            <li><a href="http://www.jenniferkonikowski.com/">Jennifer Konikowski</a></li>
                         </ul>
                 </div><!-- /.blogroll -->
                 <div class="social">
                         <h2>social</h2>
                         <ul>
 
-                            <li><a href="#">You can add links in your config file</a></li>
-                            <li><a href="#">Another social link</a></li>
+                            <li><a href="http://www.twitter.com/mariannafoos">Twitter</a></li>
                         </ul>
                 </div><!-- /.social -->
         </section><!-- /#extras -->
