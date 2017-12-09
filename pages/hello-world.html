@@ -4,11 +4,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="" />
+    <meta name="description" content="A Page in : Hello, world!" />
     <meta name="author" content="Marianna Foos" />
     <meta name="generator" content="Pelican (VoidyBootstrap theme)" />
 
-    <title>I'd rather be eating</title>
+    <title>Hello, world! - I'd rather be eating</title>
 
    
         <link rel="stylesheet"
@@ -69,10 +69,45 @@
     <div class="container" id="main-container">
       <div class="row">
         <div class="col-md-9" id="content">
+<article itemscope="itemscope" 
+         itemtype="http://schema.org/WebPage">
+  <header>
+    <h1 itemprop="name headline">Hello, world!</h1>
+  </header>
+  <div class="content-body" itemprop="text">
+    <p>It's been on my list of "haunting tasks" (this is a real list I keep) to "make a Jekyll blog on Github pages". However, my experience with Jekyll was: jargon jargon jargon, gem install. Since I try not to type mysterious things into my terminal, I googled around, and eventually found a page titled <a href="http://guides.rubygems.org/what-is-a-gem/">"What is a gem?"</a> that doesn't actually answer the question. Eventually this path led to many complaints about Ruby dependency nightmares with Jekyll, a blog comment about "other static site generators", and my using <a href="http://docs.getpelican.com/">Pelican</a>.</p>
+<p>Here are some things I learned while throwing this together today:</p>
+<ol>
+<li>
+<p>I am an example-oriented learner, so I briefly browsed the docs and then started with the <a href="http://docs.getpelican.com/en/3.6.3/quickstart.html">quickstart</a> option. It builds you a barebones page that is then as flexible as if built by hand. Viewing config &amp; styling documents is straightforward and you can get on your way fast.</p>
+</li>
+<li>
+<p>If you are using Github pages, the helpful info is in <a href="http://docs.getpelican.com/en/3.6.3/tips.html">tips</a></p>
+</li>
+<li>
+<p>I have a static Github page at my .io URL, and I spend a lot of time trying to figure out how I could put a blog at mfoos.github.io/blog/ without having a confusing directory structure and/or files everywhere. I ultimately figured it out using <a href="https://gohugo.io/tutorials/github-pages-blog/">this Hugo tutorial</a>.
+Basically:</p>
+<ul>
+<li>
+<p>Create a totally separate repo called "blog" (or whatever)</p>
+</li>
+<li>
+<p>Create a branch called "gh-pages" (this exactly)</p>
+</li>
+<li>
+<p>WHILE ON THE MASTER BRANCH use <a href="https://github.com/davisp/ghp-import">ghp-import</a> to automatically rename the contents of your <code>output</code> so that ONCE DEPLOYED they all live in the /blog folder <code>git push origin gh-pages</code></p>
+</li>
+</ul>
+</li>
+<li>
+<p>I also noticed that the themes appear slightly different in the local browser preview vs hosted on Github, so make sure you like the hosted version too.</p>
+</li>
+</ol>
+<p>Now I have a blog. Better write about something.</p>
+  </div>
 
-<nav class="index-pager">
 
-</nav> <!-- /index-pager -->
+</article>
         </div><!-- /content -->
 
         <div class="col-md-3 sidebar-nav" id="sidebar">
