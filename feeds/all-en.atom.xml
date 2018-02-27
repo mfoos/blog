@@ -22,11 +22,13 @@
 &lt;p&gt;&lt;strong&gt;Thus ends the personal endorsement section&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Below are some additional resources that get positive reviews from the folks around me&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;DataCamp&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;a href="https://www.datacamp.com/"&gt;DataCamp&lt;/a&gt; offers a ton of courses in R and Python, including many taught by "R celebrities" like Julia Silge and Charlotte Wickham (and several R-Ladies founders). Full disclosure, DataCamp sponsored an R-Ladies Boston. I've never used DataCamp, but my R-Ladies members rave about it. As I understand it, some courses are free, and some are subscriber-only, with the first chapter free to view. Pay plans are $25-29 per month.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;R4DS&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;DataCamp&lt;/strong&gt;
+   &lt;a href="https://www.datacamp.com/"&gt;DataCamp&lt;/a&gt; offers a ton of courses in R and Python, including many taught by "R celebrities" like Julia Silge and Charlotte Wickham (and several R-Ladies founders). Full disclosure, DataCamp sponsored an R-Ladies Boston. I've never used DataCamp, but my R-Ladies members rave about it. As I understand it, some courses are free, and some are subscriber-only, with the first chapter free to view. Pay plans are $25-29 per month.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;R4DS&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;a href="http://r4ds.had.co.nz/"&gt;R4DS&lt;/a&gt; or "R for Data Science" is a free ebook (or non-free paperback) by Hadley Wickham and Garrett Grolemund, who both work at RStudio and are actually also DataCamp instructors. They thus contribute a lot to shaping the language and have their fingers on the pulse of R. I have landed in this ebook while troubleshooting, but never tried to go through it systematically (some R-Ladies chapters are doing this, I believe)&lt;/p&gt;
 &lt;ol&gt;
